@@ -1,0 +1,212 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding:0;
+	margin:0;
+	background-color:#f4f4f4;
+}
+/*Container**/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+.dark{
+	background:#34324a;
+	padding:10px;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.button1{
+	 height:35px;
+	 background:#eda0cd;
+	 border:none;
+	 padding-left:20px;
+	 padding-right:20px;
+	 color:#ffffff;
+}
+/*Header**/
+header{
+	background:#34324a;
+	color:#ffffff;
+	padding-top:30px;
+	padding-left:200;
+	min-height:70px;
+	border-bottom:#eda0cd 4px solid;
+	text-align:center
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+}
+header li{
+	float:left;
+	padding: 0px 20px 0 20px;
+	display:inline;
+}
+header #branding{
+	float:left;
+	font-size:25px;
+}
+header #branding h1{
+	margin:0;
+	padding:0;
+}
+header #branding h1{
+	margin:0;
+	padding:0;
+}
+header nav{
+	float:right;
+}
+header .highlight, header .current a{
+	color:#c3829e;
+	font-weight:bold;
+}
+header a:hover{
+	color:#f5dcf0;
+	font-weight:bold;
+}
+/*Showcase**/
+ #showcase{
+	 min-height:500px;
+	 background:url('https://lh3.googleusercontent.com/MO9GCkhTIyU0r_cTJ39QYpg94oY0db_MG-sBCHfQMoqle9C1Sur5GJwAgP3LvSHpLgpaH57GlmG5whBdwgce4D-aT5wGD4rFEeht2W9IE3uKb-lFW874NrIrfGIBUu8HT-SbUs0xoAV-ZtzY01A32oLZhIrr1F67l0BYW-xWPZFcro24KO3l03b2uoAUe5vj3Xvc0K66T6Ag2Kp-ICglJdshq2Z5PhOeWL1YnZjT_rKriFxLUrhe2FSkVf10fmta-4AO4KO5emhsBqLGuBdCLVP92hCxtqxDU9NYECawoIHGrQ7p_SLq1OnYlfuVH0r8VG6X2zQbmFdNjT-mFTkQxYhYqGuKi51eawTER6r70RccycIUOtcSIp7aYVic5EqQtB4qy4lgSjcUdkPFbXg_rLf7MXs8YXYhfoJeL7EDqxi_VD4LLrQWuZyKei18LtRSsrVZgDQ1XRtfHM7QDKiQpbJ2QiG_unLM3XRdnsvUpgwfKgH6siobM2m4weD_3ihxOTTLouFPBI2tXrLi_WNruN6TL-3XbWE4YonvvtEpBUyjPL2Xa1Vr36jEPU39SpYnYV-G_wkR0QKL2g_QDxj0d8vzesO0V_14b-1aWHCAKHUGn03CJy41xM6FL6XR5xCx7C5vqgqSyMySilFcI-hNGZGAzcL51P4LQ5Hzzfm4d5ERMJ4Y0A0paesEOcsv9-yOLulY-EAvc57en-PFNp7UEE5w=w1920-h640-no?authuser=1') no-repeat;
+	 width:100%;
+	 text-align:center;
+	 color:#000000;
+ }
+ #showcase h1{
+	 margin-top:200px;
+	 font-size:50px;
+	 margin-bottom:10px;
+ }
+ #showcase p{
+	 font-size:20px;
+ }
+ /*Newsletter**/
+ #newsletter{
+	 padding:15px;
+	 color:#ffffff;
+	 background:#34324a;
+ }
+ #newsletter h1{
+	 float:left;
+	 font-size:25px;
+ }
+  #newsletter form{
+	 float:right;
+	 margin-top:15px;
+ }
+ #newsletter input[type="email"]{
+	 padding:4px;
+	 height:25px;
+	 width:250px;
+ }
+ /*Boxes**/
+ #boxes {
+	 margin-top:20px;
+ }
+ #boxes .box{
+	 float:left;
+	 width:30%;
+	 padding:10px;
+	 text-align:center;
+ }
+ #boxes .box img{
+	 width:150px;
+ }
+  #boxes .box h3{
+	font-size:25px;  
+ }
+ /*About**/
+ /*Article**/
+ article#column1{
+	 float:left;
+	 width:65%;
+	 margin-top:0px;
+ }
+ 
+ /*Sidebar**/
+ aside#sidebar{
+	 float:right;
+	 width:30%;
+	 margin-top:10px;
+ }
+ aside#sidebar .quote input{
+	 width:90%;
+	 padding:5px;
+ }
+ aside#sidebar .quote textarea{
+	 width:90%;
+	 padding:5px;
+ }
+ article#serv{
+	 float:left;
+	 width:65%;
+	 margin-top:0px;
+	 margin-bottom:5px;
+ }
+ #quote p{
+	 margin:0;
+	 padding:0;
+ }
+ /*Services**/
+ ul#serv li{
+	 list-syle:none;
+	 padding:20px;
+	 border:#cccccc solid 1px;
+	 margin-bottom:5px;
+	 background:#e6e3e5;
+ }
+
+ /*Footer**/
+ footer{
+	 padding:20px;
+	 margin-top:20px;
+	 color:#ffffff;
+	 background:#eda0cd;
+	 text-align:center;
+ }
+ /*Media Query**/
+ @media(max-width:768px){
+	 header #branding,
+	 header nav,
+	 header nav li,
+	 #showcase,
+	 #newsletter h1,
+	 #newsletter form,
+	 #boxes .box,
+	 #column1,
+	 #sidebar,
+	 #services,
+	 footer{
+		 float:none;
+		 text-align:center;
+		 width:100%;
+	 }
+	 header{
+		 padding-bottom:10px;
+	 }
+	 #newsletter button{
+		 display:block;
+		 width:100%;
+	 }
+	#newsletter form input[type="email"]{
+		width:100%;
+		margin-bottom:5px;
+	}
+	#sidebar{
+		width:100%;
+	}
+	#sidebar .quote button{
+		display:block;
+		width:100%;
+	}
+	#services{
+		width:100%;
+	}
+ }
